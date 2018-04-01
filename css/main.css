@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&subset=latin-ext');
+
+body {
+    font-family: 'Merriweather', serif;
+    color: black;
+    background-color: #d3d3d3;
+}
+.text-highlight {
+    color: #961818;
+}
+.text-subcolor {
+    color: #B71111;
+}
+a, a:link, a:visited, a:hover {
+    color: #961818;
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+}
+h1 {
+    font-size: 140%;
+}
+h2 {
+    font-size: 130%;
+}
+h3 {
+    font-size: 120%;
+}
+p {
+    font-size: 100%;
+}
+.section {
+    text-align: center;
+}
+/* Menu */
+#menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    list-style: none;
+}
+#menu li {
+    font-size: 100%;
+    float: left;
+    margin: 15px;
+}
+#menu li.active {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* End menu */
+/* Content */
+#agapo-title {
+    font-size: 190%;
+}
+.center {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-height: 768px) {
+    .center.top {
+        top: 55%;
+    }
+}
+.icon-holder {
+    width: 100%;
+}
+.icon-holder img {
+    width: 30%;
+    height: auto;
+}
